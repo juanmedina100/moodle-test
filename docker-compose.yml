@@ -18,7 +18,7 @@ services:
     container_name: moodle
     ports:
       - "8200:8080"
-      - "8443:8443"
+      #- "8443:8443"
     environment:
       #- ALLOW_EMPTY_PASSWORD=yes
       - MOODLE_DATABASE_USER=bn_moodle 
